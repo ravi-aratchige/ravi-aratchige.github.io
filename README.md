@@ -7,7 +7,7 @@
 ```markdown
 Software Engineering Undergraduate at Kotelawala Defence University
 Creative Writer
-Passionate about Machine Learning, Indie Games and Country Music
+Passionate about Machine Learning, Indie Games and Lo-fi Music
 ```
 
 ## Contact Me
