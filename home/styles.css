@@ -1,3 +1,5 @@
+/* INITIALIZATIONS */
+
 * {
     font-family: 'Poppins';
     color: #c3e1fa;
@@ -5,6 +7,9 @@
 a {
     text-decoration: none;
 }
+
+/* BASIC STRUCTURE */
+
 body {
     background-image: url(img/bg.jpg);
     display: flex;
@@ -21,6 +26,9 @@ body {
     justify-content: space-between;
     text-align: center;
 }
+
+/* CARD INTERNALS */
+
 .header {
     font-size: 2rem;
 }
@@ -40,4 +48,15 @@ li {
 }
 i {
     font-size: 3rem;
+}
+
+/* HOVER STATES */
+
+i:hover {
+    transform: scale(1.2);
+    transition-duration: 0.25s;
+}
+i:not(:hover) {     /* this ensures smooth transform animation when mouse pointer leaves the hover state */
+    transform: scale(1);
+    transition-duration: 0.40s;
 }
