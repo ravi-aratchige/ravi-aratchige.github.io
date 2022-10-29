@@ -11,10 +11,14 @@ a {
 /* BASIC STRUCTURE */
 
 body {
-    background-image: url(img/bg.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
+    /* gradient background */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: auto;
 }
 .card {
     background-color: transparent;
@@ -59,4 +63,18 @@ i:hover {
 i:not(:hover) {     /* this ensures smooth transform animation when mouse pointer leaves the hover state */
     transform: scale(1);
     transition-duration: 0.40s;
+}
+
+/* BACKGROUND ANIMATION */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
