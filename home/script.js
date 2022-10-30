@@ -3,7 +3,7 @@
 let message, today = new Date()
 
 let time = today.getHours()
-time = 8   // for testing
+time = 5   // for testing
 if (time < 5) {
     document.querySelector('#greeting').innerHTML = 'Late Night?'
 } else if (time < 12) {
@@ -12,7 +12,7 @@ if (time < 5) {
     document.querySelector('#greeting').innerHTML = 'Good Afternoon'
 } else if (time < 22) {
     document.querySelector('#greeting').innerHTML = 'Good Evening'
-} else if (time < 24) {
+} else {
     document.querySelector('#greeting').innerHTML = 'Late Night?'
 }
 
