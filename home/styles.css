@@ -14,9 +14,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gradient background */
-    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    alternate gradient */
-    background: linear-gradient(-45deg, #be1a95, #4d1d90, #10106e, #06063c);
+
+    /* alternate gradient backgrounds */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #B9E49F, #3DA597, #00617A, #003F5F);
+    background: linear-gradient(-45deg, #00DAFC, #008BDA, #2E62B7, #540055);
+
+    /* applied gradient backgrounds */
+    background: linear-gradient(-45deg, #F10060, #CB0084, #8C159F, #0032AB);
+    
 	background-size: 400% 400%;
 	animation: gradient 8s ease infinite;
 	height: auto;
@@ -24,7 +30,7 @@ body {
 .card {
     background-color: transparent;
     border-radius: 5px;
-    width: 30rem;
+    width: 40rem;
     height: 35rem;
     display: flex;
     flex-direction: column;
