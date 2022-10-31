@@ -3,7 +3,7 @@
 let message, today = new Date()
 
 let time = today.getHours()
-// test
+
 if (time < 5) {
     document.querySelector('#greeting').innerHTML = 'Late Night?'
 } else if (time < 12) {
