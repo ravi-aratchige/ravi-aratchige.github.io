@@ -2,7 +2,7 @@
 /* use if proper only */
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter';
 }
 body {
     background-color: #222831;
@@ -32,10 +32,16 @@ button {
     text-decoration: none;
     color: white;
 }
-.header img {
-    width: 30px;
-    height: 30px;
+.header i {
+    /* width: 30px;
+    height: auto; */
     margin-left: 30px;
+    font-size: 1.5rem;
+}
+#websiteLogo {
+    width: 30px;
+    text-decoration: none;
+    color: #EEEEEE;
 }
 .heading {
     text-align: center;
