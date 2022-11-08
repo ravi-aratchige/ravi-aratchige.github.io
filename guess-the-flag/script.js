@@ -56,6 +56,9 @@ function changeTextOfOtherOptions() {
 }
 
 // this test function literally crashes my browser lmfaoooo
+// i wrote this test function to check if there are any duplicate country names in the other options
+// this function was meant to replace the changeTextOfOtherOptions() function given above
+// but it crashes the browser so bad I can't even close the browser tab after it runs
 
 function test() {
     let option1Text = document.getElementById('1').innerHTML;
@@ -151,7 +154,7 @@ function correct() {
 function incorrect() {
     
     // change heading
-    document.getElementById('headingText').innerHTML = "INCORRECT!";
+    document.getElementById('headingText').innerHTML = "WRONG ANSWER!";
     
     // leave flag as it is
 
