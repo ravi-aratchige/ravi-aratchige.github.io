@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guess The Flag</title>
+</head>
+<body>
+    <div class="header">
+        <img src="img/logo.png" alt="Logo">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="heading">
+        <h1 id="headingText">GUESS THE FLAG</h1>
+    </div>
+    <div class="flag">
+        <!-- <img src="https://flagcdn.com/at.svg" alt="Flags"> -->
+    </div>
+    <div class="countryDescription">
+        <p>This is <span id="countryName">Country Name</span></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugiat saepe earum voluptatibus possimus error consequuntur nihil quia harum. Perspiciatis nesciunt odit, quos sapiente voluptatibus ullam quae expedita nulla velit?</p>
+    </div>
+    <div class="description">
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat reprehenderit repellat totam illo quia cupiditate necessitatibus! Ea omnis beatae cupiditate maxime cum vitae commodi voluptate. Exercitationem iure delectus excepturi?</p>
+    </div>
+    <div class="start">
+        <button onclick="question()">Start! &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="options">
+        <div class="answers">
+            <button id="1" onclick="checkAnswer(this.id)">Answer 1</button>
+            <button id="2" onclick="checkAnswer(this.id)">Answer 2</button>
+            <button id="3" onclick="checkAnswer(this.id)">Answer 3</button>
+            <button id="4" onclick="checkAnswer(this.id)">Answer 4</button>
+        </div>
+        <div class="otherOptions">
+            <button id="showAnswer">Show Answer</button>
+            <button id="skip" onclick="next()">Skip Flag</button>
+        </div>
+    </div>
+    <div class="next">
+        <button id="nextFlag" onclick="next()">Next Flag</button>
+    </div>
+    <div class="background">
+        <img src="img/globe-small.png" alt="Flags">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
