@@ -3,7 +3,7 @@
     color: white;
 }
 body {
-    background-image: url(https://i.pinimg.com/originals/23/e8/3c/23e83c2159574cf23c5c617e0566aac6.jpg);
+    /* background-image: url(https://i.pinimg.com/originals/23/e8/3c/23e83c2159574cf23c5c617e0566aac6.jpg); */
     background-size: cover;
     display: grid;
     align-items: center;
