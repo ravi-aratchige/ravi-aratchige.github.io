@@ -3,7 +3,7 @@
     color: white;
 }
 body {
-    background-image: url(img/bg.png);
+    background-image: url(img/bg.jpg);
     background-size: cover;
     display: grid;
     align-items: center;
