@@ -1,9 +1,8 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Jost','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 body {
-    /* background-image: url(https://i.pinimg.com/originals/23/e8/3c/23e83c2159574cf23c5c617e0566aac6.jpg); */
     background-image: url(img/bg-new.jpg);
     background-size: cover;
     display: grid;
@@ -23,7 +22,6 @@ body {
     border-radius: 0.75rem;
     background-color: rgba(255,255,255,0.15);
     backdrop-filter: blur(0.7rem);
-
     display: grid;
     align-items: center;
     justify-content: center;
@@ -34,12 +32,15 @@ body {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
+.content p {
+    font-size: 1.2rem;
+}
 .icon {
     border: none;
     color: white;
     background-color: transparent;
     padding: 12px 8px;
-    font-size: 26px;
+    font-size: 28px;
     cursor: pointer;
 }
 i {
